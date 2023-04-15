@@ -24,7 +24,7 @@ def voice_recorder(seconds, file):
     write(file, 44100, recording)
     print("Recording Finished")
 
-openai.api_key = "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"
+openai.api_key = ""
 nation = 'ko-KR'
 
 voice_recorder(10, "test.wav")
